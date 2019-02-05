@@ -13,7 +13,7 @@ document.querySelector('.done').addEventListener('click', function() {
   notCompleted[i].classList.add('inactive');
 }
  else {
-   // empty else?
+   return;
  }
 });
 
@@ -29,7 +29,7 @@ document.querySelector('.not-done').addEventListener('click', function() {
     completed[i].classList.add('inactive');
   }
   else{
-// empty else?
+    return;
  }
 });
 
