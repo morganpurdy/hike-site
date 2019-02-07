@@ -6,19 +6,20 @@ body {
   width: 90%;
   max-width: 900px;
   margin: 2em auto;
-  /* background-image: linear-gradient(to right, #CFDFBF ,#88B060, #CFDFBF); */
+  background-color: #D6E9F5;
 }
 
 header {
-    background-color:   #000066;
+    background-color: white;
+    /* border: 3px solid  #813F09; */
     border-radius: 10px;
     padding-left: 10px;
     margin-bottom: 30px;
 }
 
 button {
-  color: #00004d;
-  background-color: white;
+  color: #813F09;
+  background-color: #D5D7D8;
   font-family: "Staatliches", sans-serif;
   margin: 10px;
   font-size: 16px;
@@ -29,14 +30,14 @@ button {
 h1 {
   font-family: "Staatliches", sans-serif;
   font-size: 60px;
-  color: white;
+  color: #813F09;
   display: inline;
   margin-right: 10%;
 }
 
 h2 {
   font-family: "Staatliches", sans-serif;
-  color: white;
+  color: #813F09;
   display: inline;
 }
 
@@ -54,12 +55,12 @@ h3 {
 p {
   font-family: "Open Sans", sans-serif;
   margin-left: 22px;
+  color: white;
 }
 
 article {
-  background-color: lightgray;
+  background-color: #813F09;
   border-radius: 10px;
-  transition-duration: 2s;
 }
 
 .sm-icon {
@@ -79,19 +80,20 @@ grid-gap: 30px;
 }
 
 .article-img {
-  height: 200px;
+  height: 220px;
   width: 100%;
+  margin-top: -20px;
   object-fit: cover;
 }
 
 .completed {
-    background-color: #330066;
-    background-color: #711423;
+    background-color: #813F09;
+    color: white;
 }
 
 .not-completed {
-  background-color:  #006666;
-  background-color: #26727E;
+  background-color: white;
+  color: #813F09;
 }
 
 .active {
