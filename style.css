@@ -11,14 +11,14 @@ body {
 
 header {
     background-color: white;
-    /* border: 3px solid  #813F09; */
+    /* border: 3px solid  ; */
     border-radius: 10px;
     padding-left: 10px;
     margin-bottom: 30px;
 }
 
 button {
-  color: #813F09;
+  color: #a7510c;
   background-color: #D5D7D8;
   font-family: "Staatliches", sans-serif;
   margin: 10px;
@@ -30,14 +30,14 @@ button {
 h1 {
   font-family: "Staatliches", sans-serif;
   font-size: 60px;
-  color: #813F09;
+  color: #a7510c;
   display: inline;
   margin-right: 10%;
 }
 
 h2 {
   font-family: "Staatliches", sans-serif;
-  color: #813F09;
+  color: #a7510c;
   display: inline;
 }
 
@@ -59,7 +59,7 @@ p {
 }
 
 article {
-  background-color: #813F09;
+  background-color: #a7510c;
   border-radius: 10px;
 }
 
@@ -87,13 +87,21 @@ grid-gap: 30px;
 }
 
 .completed {
-    background-color: #813F09;
+    background-color: #a7510c;
     color: white;
 }
 
 .not-completed {
   background-color: white;
-  color: #813F09;
+  color: #a7510c;
+}
+
+.todo {
+  background-color: white;
+}
+
+.todo > p {
+  color: #a7510c;
 }
 
 .active {
